@@ -75,17 +75,8 @@ chmod +x ngrok-h.sh
 
 - Expose a local **web server** running on port **8080**:  
   ```sh
-  ./ngrok-h.sh 8080
+  ngrok http 80
   ```
-- Start an **SSH tunnel** on port **22**:  
-  ```sh
-  ./ngrok-h.sh 22
-  ```
-- Open a **TCP tunnel** for any other service:  
-  ```sh
-  ./ngrok-h.sh <PORT>
-  ```
-
 ---
 
 ## Why Does It Work Only on Mobile Hotspot?  
