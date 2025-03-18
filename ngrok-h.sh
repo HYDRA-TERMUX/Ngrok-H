@@ -12,7 +12,7 @@ animate_text() {
 # Blogger Login Page
 
 animate_text "Opening Hydra Termux Website Click To Follow"
-xdg-open https://hydratermux.blogspot.com
+xdg-open https://www.blogger.com/followers/follow/996877824180036608?hl=en
 
 # Custom ASCII Logo
 clear
