@@ -52,8 +52,8 @@ pkg update && pkg upgrade -y
 pkg install git curl unzip -y  
 git clone https://github.com/HYDRA-TERMUX/Ngrok-H.git  
 cd Ngrok-H  
-chmod +x ngrok-x.sh  
-./ngrok-x.sh  
+chmod +x ngrok-h.sh  
+./ngrok-h.sh  
 ```
 
 ---
@@ -62,7 +62,7 @@ chmod +x ngrok-x.sh
 
 1. **Run Ngrok-H**  
    ```sh
-   ./ngrok-x.sh
+   ./ngrok-h.sh
    ```
 2. **Enter your Ngrok Auth Token** (if prompted)  
 3. **Select the tunnel type** (HTTP, TCP, etc.)  
@@ -75,15 +75,15 @@ chmod +x ngrok-x.sh
 
 - Expose a local **web server** running on port **8080**:  
   ```sh
-  ./ngrok-x.sh 8080
+  ./ngrok-h.sh 8080
   ```
 - Start an **SSH tunnel** on port **22**:  
   ```sh
-  ./ngrok-x.sh 22
+  ./ngrok-h.sh 22
   ```
 - Open a **TCP tunnel** for any other service:  
   ```sh
-  ./ngrok-x.sh <PORT>
+  ./ngrok-h.sh <PORT>
   ```
 
 ---
