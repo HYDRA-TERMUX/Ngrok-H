@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/HYDRA-TERMUX/Ngrok-H?color=green&label=Repo%20Size)  
 ![GitHub stars](https://img.shields.io/github/stars/HYDRA-TERMUX/Ngrok-H?style=social)  
 ![GitHub forks](https://img.shields.io/github/forks/HYDRA-TERMUX/Ngrok-H?style=social)  
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=HYDRA-TERMUX.Ngrok-H)  
+![Visitor Count](https://profile-counter.glitch.me/rixon-cochi/count.svg)
 
 ## About  
 **Ngrok-H** is a **Termux-based tool** that allows users to create secure tunnels and expose **local servers** to the internet using **Ngrok**. This tool is designed for Android users who want to **host web services, SSH, or other local applications** and make them accessible remotely.  
@@ -51,8 +51,8 @@ Follow these steps to install **Ngrok-H** on Termux:
 pkg update && pkg upgrade -y  
 pkg install git curl unzip -y  
 git clone https://github.com/HYDRA-TERMUX/Ngrok-H.git  
-cd Ngrok-H  
-chmod +x ngrok-h.sh  
+cd Ngrok-H
+bash install.sh  
 ./ngrok-h.sh  
 ```
 
@@ -86,7 +86,7 @@ Ngrok requires a **public IP address** to establish a tunnel. Many Wi-Fi ISPs us
 
 ## Screenshots  
 
-![Ngrok-H Example](https://via.placeholder.com/800x400?text=Ngrok-H+Example+Screenshot)  
+![Ngrok-H Example](https://github.com/HYDRA-TERMUX/Ngrok-H/blob/main/IMG/IMG_20250318_124725.jpg)  
 
 ---
 
@@ -111,3 +111,4 @@ If you face any issues, open an [issue](https://github.com/HYDRA-TERMUX/Ngrok-H/
 ## License  
 
 This project is open-source under the **MIT License**.  
+
