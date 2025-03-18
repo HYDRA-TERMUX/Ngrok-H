@@ -17,5 +17,5 @@ xdg-open https://youtube.com/@hydratermux?si=49ZNQBcLdjO_r7nC
 echo
 sleep 5
 chmod +x ngrok-h.sh
-bash ngrok.sh
+bash ngrok-h.sh
 
